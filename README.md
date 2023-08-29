@@ -15,10 +15,13 @@ The dataset used in our project is from Kaggle, the Telco Customer Churn dataset
 • Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
 • Demographic info about customers – gender, age range, and if they have partners and dependents.
 
-# Methodologies and Results
+# Methodologies
 We will use different methodologies to train our imbalanced dataset we have taken into consideration. Now you can see that the f1 score is very less. Because of the unbalanced dataset. Now to improve it, we will use the following approaches to implement to get results over the unbalanced dataset:
 ■ Random Undersampling
 ■ Random Oversampling
 ■ Synthetic Minority Oversampling Technique (SMOTE)
 ■ Ensemble Learning
+
+# Conclusion
+Hereby, we discussed some resampling techniques for improving classification performance on the minority class when there is data imbalance. On a synthetic dataset, we demonstrated the performance of several methods in terms of precision on the majority class and recall on the minority class. The methods discussed in this article are by no means exhaustive. Several other techniques for dealing with data imbalance have been proposed in the literature.
 
